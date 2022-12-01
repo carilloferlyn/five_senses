@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="Public/images/favicon.ico">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <meta charset="UTF-8">
@@ -21,24 +22,39 @@
 </head>
 <body>
   <!-- navbar -->
-  <nav class="green lighten-5">
-    <div class="nav-wrapper">   
-      <a href="#" class="brand-logo black-text center">Activity Time!</a>
-        <ul class="right">               
-            <li>    
-               <div class="center row">
-                  <div class="col s12 " >
-                    <div class="row" id="topbarsearch">
-                      <div class="input-field col s6 s12 red-text">
-                        <input type="text" placeholder="" id="autocomplete-input" class="autocomplete red-text" >
+    <nav class="green lighten-5">
+      <div class="nav-wrapper">   
+        <a href="#" class="brand-logo black-text center">Lesson 1: Senses of Human Body</a>
+          <ul class="right">               
+              <li>    
+                <div class="center row">
+                    <div class="col s12 " >
+                      <div class="row" id="topbarsearch">
+                        <div class="input-field col s6 s12 red-text">
+                          <input type="text" placeholder="" id="autocomplete-input" class="autocomplete red-text" >
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>          
-            </li>                    
-        </ul>
-    </div>
-  </nav> 
+                    </div>          
+                </li>                    
+              <li>
+                <a class="dropdown-trigger black-text"
+                data-target="dropdown1">
+                <i class="material-icons right">more_vert</i></a>
+            </li>
+          </ul>
+      </div>
+    </nav> 
+
+  <ul id="dropdown1" class="dropdown-content">
+    <li>
+        <a href="#">Profile</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+        <a href="index.html">Log out</a>
+    </li>
+    </ul>
 
 <!-- Select -->
     <br>
